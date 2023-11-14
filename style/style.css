@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-shop {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.first-shop h2 {
+  color: #272727;
+
+  font-size: 80px;
+  font-weight: 800;
+  padding: 150px 0 0 50px;
+}
+
+.first-shop p {
+  color: rgba(39, 39, 39, 0.6);
+  padding: 50px;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.first-shop button {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+
+  padding: 20px 43px;
+
+  gap: 10px;
+  margin-left: 50px;
+
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.first-shop {
+  display: flex;
+}
+
+.secend-heading {
+  margin: 150px 0 50px 0;
+}
+
+/* secend shop */
+
+.secend-shop {
+  background: #fff;
+}
+
+.secend-heading h2 {
+  color: #272727;
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: 800;
+}
+
+.secend-heading p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.prodact-box {
+  width: 465px;
+  height: 522px;
+
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.prodact-box img {
+  align-items: center;
+  padding: 50px;
+}
+
+.box-all {
+  display: flex;
+}
+
+#prodact-three {
+  margin-top: 40px;
+}
+#prodact-tow {
+  margin-top: 45px;
+}
+.prodact-titel {
+  color: #272727;
+  text-align: center;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-around;
+
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+.support {
+  justify-content: space-around;
+  display: flex;
+
+  margin-top: 100px;
+
+  border-radius: 5px;
+  width: 1349px;
+  height: 350px;
+
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.support-img img {
+  padding: 50px;
+}
+
+.support-img p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 15px;
+
+  font-weight: 600;
+}
+
+/* main ccontains */
+.contains {
+  display: flex;
+
+  width: 1349px;
+  height: 520px;
+
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.contain h2 {
+  padding: 170px 0 0 0;
+
+  text-align: center;
+  color: #272727;
+
+  font-size: 40px;
+
+  font-weight: 800;
+}
+
+.contain button {
+  margin-left: 370px;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
+}
+
+.contain p {
+  padding: 70px 100px 20px 150px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300px;
+}
+
+.containar-img {
+  padding: 80px;
+}
+.insta {
+  padding: 80px;
+}
+
+.insta h2 {
+  color: #272727;
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: 800;
+}
+
+.insta p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.flower {
+  display: inline-flex;
+}
+
+#big-img {
+  height: 396px;
+  width: 323px;
+}
+.letes {
+}
+
+.letes-dieal {
+  margin: 90px 0 90px 0;
+  width: 1349px;
+  height: 449px;
+  flex-shrink: 0;
+
+  background: url(/img/Rectangle\ 9.png),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+.letes-dieal h2 {
+  padding-top: 70px;
+  color: #272727;
+text-align: center;
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.letes-dieal p {
+
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+
+.letes-dieal input{
+margin: 60px 0 0 300px ;
+text-align: left;
+  width: 500px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+}
+.letes-dieal button{
+margin-left: 10px;
+  width: 150px;
+height: 64px;
+border: 0;
+border-radius: 8px;
+background: #E55473;
+
+}
+footer {
+  width: 1349px;
+height: 449px;
+flex-shrink: 0;
+background: #000000;
+}
+span{
+  color: purple;
+}
+
+.footer-seaction h2{
+
+  padding-top: 90px;
+  text-align: center;
+  color: #E55473;
+
+  font-size: 60px;
+
+  font-weight: 800;
+  
+}
+/* .footer-seaction p{
+margin: 30px 0 160px 0;
+  color: white;
+  text-align: center;
+ 
+  font-size: 18px;
+
+
+ 
+
+} */
+.copyright{
+
+  color: white;
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.last-discription{
+margin: 30px 0 100px 360px;
+
+  color: rgba(255, 255, 255, 0.90);
+width: 525px;
+height: 60px;
+font-size: 18px;
+width: 625px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+text-align: center;
+}
